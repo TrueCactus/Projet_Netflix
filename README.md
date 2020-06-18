@@ -10,3 +10,7 @@ Le Notebook Projet Jetflix ipynb est une tentative d'aller explorer d'autres mé
 La méthode de recommandation s'appuie principalement sur les mots clé de l'intrigue, c'est donc un travail utilisant les outils de NLP.
 
 
+## Demonstrateur
+
+Petit demonstrateur utilisant le framework flask.
+L'utilisateur rentre un film et il obtient le nom des films et leurs affiches ( via web scrapping)
