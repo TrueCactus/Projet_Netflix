@@ -14,3 +14,8 @@ La méthode de recommandation s'appuie principalement sur les mots clé de l'int
 
 Petit demonstrateur utilisant le framework flask.
 L'utilisateur rentre un film et il obtient le nom des films et leurs affiches ( via web scrapping)
+Exemple avec le film : The Exorcist .
+
+
+![Page home](https://github.com/TrueCactus/Projet_Netflix/blob/master/Demonstrateur/Visualisation/Page_Home.jpg?raw=true)
+![Page Resultat](https://github.com/TrueCactus/Projet_Netflix/blob/master/Demonstrateur/Visualisation/Page_Resultat.jpg?raw=true)
