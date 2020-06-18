@@ -1,0 +1,23 @@
+html { width: 100%; height:100%}
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Helvetica';
+	background: #ffff00 ;
+	color: 	#DC1A28;
+	font-size: 24px;
+	text-align:center;
+  letter-spacing:1.4px;}
+
+
+p{
+	width:75%;}
+
+table{
+margin:auto;
+}
+
+th {
+
+width:150px;
+}

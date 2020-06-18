@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Jetflix</title>
+  <link href='https://fonts.googleastyle="background: #000;pis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+   <img src="https://i.imgur.com/NsAD1ws.png" />
+	<h1>Recommandation de films</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="film" placeholder="film" required="required" />
+  
+        <button type="submit" class="btn btn-primary btn-block btn-large">Conseillez moi un film</button>
+    </form>
+
+   <br>
+
+   <h1>Nous vous conseillons les films suivants :</h1>   
+<table>
+<tr><th>{{ film1 }}</th><th>{{ film2 }}</th><th>{{ film3 }}</th><th>{{ film4 }}</th><th>{{ film5 }}</th></tr>
+<tr>
+  <td><img src={{ url1 }}></td>
+  <td><img src={{ url2 }}></td>
+  <td><img src={{ url3 }}></td>
+  <td><img src={{ url4 }}></td>
+  <td><img src={{ url5 }}></td>
+</tr>
+</table>
+
+
+ 
+   
+</body>
+
+</html>
+
